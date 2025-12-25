@@ -20,11 +20,11 @@ jobs:
 
       - name: Generate GitHub Stats
         run: |
-          curl -o stats/github-stats.svg "https://github-readme-stats.vercel.app/api?username=OliverRhyme&show_icons=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&include_all_commits=true&count_private=true"
+          curl -o stats/github-stats.svg "https://github-readme-stats-one.vercel.app/api?username=OliverRhyme&show_icons=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&include_all_commits=true&count_private=true"
 
       - name: Generate Top Languages
         run: |
-          curl -o stats/top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=OliverRhyme&layout=compact&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8"
+          curl -o stats/top-langs.svg "https://github-readme-stats-one.vercel.app/api/top-langs/?username=OliverRhyme&layout=compact&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8"
 
       - name: Generate Streak Stats
         run: |
@@ -32,7 +32,7 @@ jobs:
 
       - name: Generate Trophies
         run: |
-          curl -o stats/trophies.svg "https://github-profile-trophy.vercel.app/?username=OliverRhyme&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=5&margin-h=5"
+          curl -o stats/trophies.svg "https://github-trophies.vercel.app/?username=OliverRhyme&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=5&margin-h=5"
 
       - name: Commit and Push
         run: |
