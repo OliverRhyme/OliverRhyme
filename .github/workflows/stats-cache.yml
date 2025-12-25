@@ -24,6 +24,7 @@ jobs:
       - name: Generate GitHub Stats
         uses: lowlighter/metrics@latest
         with:
+          user: OliverRhyme
           token: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
           filename: stats/github-stats.svg
           base: header, repositories
@@ -35,6 +36,7 @@ jobs:
       - name: Generate Top Languages
         uses: lowlighter/metrics@latest
         with:
+          user: OliverRhyme
           token: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
           filename: stats/top-langs.svg
           base: ""
@@ -50,6 +52,9 @@ jobs:
       - name: Generate Trophies
         run: |
           curl -o stats/trophies.svg "https://github-trophies.vercel.app/?username=OliverRhyme&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=5&margin-h=5"
+
+      - name: Fix permissions
+        run: sudo chown -R $USER:$GROUPS stats/
 
       - name: Commit and Push
         run: |
