@@ -137,11 +137,14 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add stats/
           git diff --quiet && git diff --staged --quiet || git commit -m "Update GitHub metrics"
+          git pull --rebase origin main
           git push
 
   # Snake animation - kept separate as lowlighter/metrics doesn't have this feature
   snake-animation:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Generate Snake
         uses: Platane/snk@v3
@@ -163,9 +166,18 @@ jobs:
   # GitLab Pac-Man - kept separate as it's GitLab-specific
   gitlab-pacman:
     runs-on: ubuntu-latest
+    needs: github-metrics
+    permissions:
+      contents: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+          fetch-depth: 0
+
+      - name: Pull latest changes
+        run: git pull --rebase origin main
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -186,4 +198,5 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add pacman-gitlab.svg
           git diff --quiet && git diff --staged --quiet || git commit -m "Update GitLab Pac-Man contribution graph"
+          git pull --rebase origin main
           git push
