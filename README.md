@@ -147,6 +147,10 @@
 
 <br>
 
+<img src="https://img.shields.io/badge/Honors-Magna_Cum_Laude-orange?style=for-the-badge&logo=starship&logoColor=white" alt="Honors"/>
+
+<br>
+
 <img src="https://img.shields.io/badge/Award-DOST_Merit_Scholar-FFD700?style=for-the-badge&logo=gitbook&logoColor=black" alt="Scholarship"/>
 
 </div>
