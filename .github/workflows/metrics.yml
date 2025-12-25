@@ -128,8 +128,11 @@ jobs:
           config_timezone: Asia/Manila
           output_action: none
 
-      - name: Fix permissions
-        run: sudo chown -R $USER:$GROUPS stats/
+      - name: Copy metrics output to stats directory
+        run: |
+          ls -laR /metrics_renders/ || true
+          cp -r /metrics_renders/stats/* stats/ 2>/dev/null || cp /metrics_renders/*.svg stats/ 2>/dev/null || true
+          ls -la stats/
 
       - name: Commit and Push
         run: |
