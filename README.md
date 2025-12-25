@@ -19,13 +19,9 @@
 
 ---
 
-<!-- 3D CONTRIBUTION CALENDAR -->
+<!-- ISOMETRIC CONTRIBUTION CALENDAR -->
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/OliverRhyme/OliverRhyme/main/profile-3d-contrib/profile-night-rainbow.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/OliverRhyme/OliverRhyme/main/profile-3d-contrib/profile-green-animate.svg">
-    <img src="https://raw.githubusercontent.com/OliverRhyme/OliverRhyme/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Contributions"/>
-  </picture>
+  <img src="https://raw.githubusercontent.com/OliverRhyme/OliverRhyme/main/stats/isocalendar.svg" width="100%" alt="Isometric Contributions"/>
 </div>
 
 ---
@@ -54,14 +50,14 @@
 
 ---
 
-<!-- GITHUB TROPHIES -->
+<!-- GITHUB ACHIEVEMENTS -->
 <div align="center">
 
 ### Achievements
 
 <br>
 
-<img src="https://raw.githubusercontent.com/OliverRhyme/OliverRhyme/main/stats/trophies.svg" width="100%" alt="trophies"/>
+<img src="https://raw.githubusercontent.com/OliverRhyme/OliverRhyme/main/stats/achievements.svg" width="100%" alt="achievements"/>
 
 </div>
 
@@ -81,7 +77,8 @@
 
 <br><br>
 
-<img src="https://raw.githubusercontent.com/OliverRhyme/OliverRhyme/main/stats/streak.svg" width="49%" alt="streak"/>
+<img src="https://raw.githubusercontent.com/OliverRhyme/OliverRhyme/main/stats/habits.svg" width="49%" alt="habits"/>
+<img src="https://raw.githubusercontent.com/OliverRhyme/OliverRhyme/main/stats/calendar.svg" width="49%" alt="calendar"/>
 
 </div>
 
