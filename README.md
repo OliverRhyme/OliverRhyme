@@ -141,10 +141,13 @@
 
 <br>
 
-```
-🎓 BS Computer Engineering @ MSU-IIT
-📜 DOST Merit Scholar
-```
+<a href="https://www.msuiit.edu.ph">
+  <img src="https://img.shields.io/badge/BS_Computer_Engineering-MSU--IIT-58a6ff?style=for-the-badge&logo=google-scholar&logoColor=white" alt="Degree"/>
+</a>
+
+<br>
+
+<img src="https://img.shields.io/badge/Award-DOST_Merit_Scholar-FFD700?style=for-the-badge&logo=gitbook&logoColor=black" alt="Scholarship"/>
 
 </div>
 
