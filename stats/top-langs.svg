@@ -29,7 +29,7 @@
                     <rect mask="url(#languages-bar)" x="439.4415375473555" y="0" width="16.253724437429685" height="8" fill="#f34b7d"/>
                     <rect mask="url(#languages-bar)" x="455.6952619847852" y="0" width="3.2388172929452352" height="8" fill="#b07219"/>
                     <rect mask="url(#languages-bar)" x="458.93407927773046" y="0" width="0.591842055198946" height="8" fill="#00B4AB"/>
-                    <rect mask="url(#languages-bar)" x="459.52592133292944" y="0" width="0.4740786670706416" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="459.52592133292944" y="0" width="0.4740786670706416" height="8" fill="#ededed"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -122,9 +122,9 @@
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#f1e05a" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#ededed" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
-                                JavaScript
+                                TSX
                             </div>
                             <small>
                                 <div>2.19 kB</div>
